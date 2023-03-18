@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/*-------common style-------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ------top section style------ */
+
+.top-section {
+    display: flex;
+    background: rgb(22, 22, 22);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 560px;
+    margin-top: 80px;
+    column-gap: 70px;
+}
+.players-heading h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.players-heading p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    width: 458px;
+    height: 78px;
+}
+.link{
+    margin-top: 60px;
+}
+.link a {
+    text-decoration: none;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.fa-greater-than {
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
+.player-img img {
+    width: 450px;
+    height: 470px;
+}
+/* ------middle section------- */
+.middle-section {
+    margin-top: 140px;
+    display: flex;
+}
+.match-list {
+    background: black;
+    width: 280px;
+    height: 290px;
+    border-radius: 5px;
+}
+.list {
+    width: 252px;
+    height: 252px;
+    padding: 15px;
+    line-height: 90px;
+}
+.upcoming {
+    text-align: center;
+}
+.upcoming a {
+    text-decoration: none;
+    padding: 16px 55px;
+    color:black;
+    font-weight: 600;
+    background-color:white;
+    border-radius: 8px;
+}
+.all {
+    text-align: center;
+}
+.all a {
+    text-decoration: none;
+    padding: 16px 86px;
+    color:black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+}
+.blog {
+    text-align: center;
+}
+.blog a {
+    text-decoration: none;
+    padding: 16px 104px;
+    color:black;
+    font-weight: 600;
+    background-color:red;
+    border-radius: 8px;
+}
+.match-list-2{
+    display: none;
+}
+/* ------all video styles------- */
+
+.all-video {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    margin-left: 12px;
+}
+
+.video-1 img {
+    width: 280px;
+    height: 170px;
+}
+.video-1 {
+    width: 280px;
+    height: 356px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    gap: 10px;
+}
+.video-details{
+    padding-left: 15px;
+}
+.video-details h4 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #161616;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid #161616;
+    width: 90px;
+    height: 26px;
+    border-radius: 5px;
+}
+.video-details p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #161616;
+    line-height: 14px;
+}
+.icon-part{
+    display: flex;
+    column-gap: 40px;
+}
+span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(22, 22, 22, 0.7);
+    padding-left: 10px;
+}
+
+/* ------footer section styles------- */
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 70px;
+}
+.footer-section{
+    padding-top: 36px;
+}
+
+.footer-section h1{
+    color:#FFFFFF;
+    text-align: center;
+}
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.options {
+    text-align: center;
+    line-height: 70px;
+}
+.options a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 25px;
+
+}
+.social-media {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.social-media a{
+    color:white;
+    padding-left: 10px;
+}
+/* ------------------
+this is tablet divice
+------------------- */
+ @media screen and (min-width:768px) and (max-width:992px) {
+  main{
+    width:100%;
+  }
+.top-section {
+    width: 796px;
+    height: 398px;
+}
+  .players-heading h1{
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .players-heading p {
+    font-weight: 400;
+    font-size: 14px;
+    width: 300px;
+    height: 96px;
+}
+  .players-heading{
+    padding-right: 0;
+  }
+  .player-img img{
+    width:100%;
+    height: 100%;
+  }
+  .link {
+    margin-top: 35px;
+}
+  .link a {
+    padding: 12px;
+    font-size: 14px;
+    }
+    .fa-greater-than {
+        position: relative;
+        left: 5px;
+        font-size: 10px;
+    }
+    .middle-section{
+        flex-direction: column;
+    }
+    .match-list{
+        display: none;
+    }
+    .match-list-2 {
+        display: flex;
+        gap: 10px;
+        margin-left: 12px;
+        margin-bottom: 20px;
+    }
+    .upcoming-2 {
+        width: 256px;
+        height: 52px;
+        text-align: center;
+        border: 2px solid #E8E8E8;
+        padding-top: 20px;
+        border-radius: 8px;
+    }
+    .upcoming-2 a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .all-2 {
+        width: 256px;
+        height: 52px;
+        text-align: center;
+        border: 2px solid #E8E8E8;
+        padding-top: 20px;
+        border-radius: 8px;
+    }
+    .all-2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .blog-2 {
+        width: 256px;
+        height: 52px;
+        text-align: center;
+        border: 2px solid #E8E8E8;
+        padding-top: 20px;
+        background: red;
+        border-radius: 8px;
+    }
+    .blog-2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .all-video {
+        grid-template-columns: repeat(2,1fr);
+        gap: 18px;
+    }
+    .video-1 img {
+        width: 392px;
+        height: 240px;
+    }
+    .video-1 {
+        width: 390px;
+        height: 443px;
+    }
+    .video-details h4 {
+        font-weight: 600;
+        font-size: 20px;
+        width: 150px;
+        height: 30px;
+    }
+    .video-details p {
+        font-size: 24px;
+        line-height: 10px;
+    }
+    .video-2{
+        display:none;
+    }
+ }
+
+ /* ------this is code for mobile device-----
+ ----------------- */
+ @media screen and (max-width:688px) {
+    main{
+        width:100%;
+    }
+    .top-section {
+        width: 334px;
+        height: 400px;
+        flex-direction: column;
+    }
+    .players-heading h1 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 10px;
+        text-align: center;
+    }
+    .players-heading p {
+        font-size: 12px;
+        line-height: 0;
+        font-weight: 500;
+        width: 170px;
+        height: 30px;
+        line-height: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
+    .text-short {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .link{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .link a {
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+   .player-img img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 36px;
+    left: 10px;
+   }
+   .fa-greater-than {
+    font-size: 10px;
+    padding-right: 8px;
+}
+.match-list{
+    display: none;
+ }
+     .match-list-2 {
+        display:block;
+        margin-bottom: 45px;
+    }
+    .upcoming-2 {
+        width: 256px;
+        height: 52px;
+        text-align: center;
+        border: 2px solid #E8E8E8;
+        padding-top: 20px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    .upcoming-2 a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .all-2 {
+        width: 240px;
+        height: 52px;
+        text-align: center;
+        border: 2px solid #E8E8E8;
+        padding-top: 20px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 8px;
+    }
+    .all-2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .blog-2 {
+        width: 228px;
+        height: 52px;
+        text-align: center;
+        border: 2px solid #E8E8E8;
+        padding-top: 20px;
+        background: red;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 15px;
+    }
+    .blog-2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .middle-section{
+        flex-direction: column;
+    }
+  .all-video {
+        grid-template-columns: repeat(1,1fr);
+    }
+ }

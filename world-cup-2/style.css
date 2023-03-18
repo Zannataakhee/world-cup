@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+/*-------common style-------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ------top section style------ */
+
+.top-section {
+    display: flex;
+    background: rgb(22, 22, 22);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 560px;
+    margin-top: 80px;
+    column-gap: 70px;
+}
+.players-heading h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.players-heading p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+}
+.link{
+    margin-top: 60px;
+}
+.link a {
+    text-decoration: none;
+    padding: 16px 25px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.fa-greater-than{
+    position:relative;
+    left: 10px;
+}
+.player-img img {
+    width: 450px;
+    height: 470px;
+}
+/* ------middle section------- */
+.middle-section {
+    margin-top: 140px;
+    display: flex;
+}
+.match-list {
+    background: black;
+    width: 280px;
+    height: 290px;
+    border-radius: 5px;
+}
+.list {
+    width: 252px;
+    height: 252px;
+    padding: 15px;
+    line-height: 90px;
+}
+.upcoming {
+    text-align: center;
+}
+.upcoming a {
+    text-decoration: none;
+    padding: 16px 55px;
+    color:black;
+    font-weight: 600;
+    background-color:red;
+    border-radius: 8px;
+}
+.all {
+    text-align: center;
+}
+.all a {
+    text-decoration: none;
+    padding: 16px 86px;
+    color:black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 8px;
+}
+.blog {
+    text-align: center;
+}
+.blog a {
+    text-decoration: none;
+    padding: 16px 104px;
+    color:black;
+    font-weight: 600;
+    background-color:white;
+    border-radius: 8px;
+}
+/* ------all video styles------- */
+
+.all-video {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    margin-left: 12px;
+}
+
+
+.video-1 {
+    width: 280px;
+    height: 218px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.flag {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.vs {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.team {
+    text-align: center;
+    line-height: 20px;
+    padding-top: 14px;
+}
+.team h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.team p {
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+
+/* ------footer section styles------- */
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 70px;
+}
+.footer-section{
+    padding-top: 36px;
+}
+
+.footer-section h1{
+    color:#FFFFFF;
+    text-align: center;
+}
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.options{
+    text-align: center;
+}
+.options a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+.social-media {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.social-media a{
+    color:white;
+    padding-left: 10px;
+}
+
