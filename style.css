@@ -30,7 +30,20 @@ main{
     font-size: 62px;
     line-height: 18px;
     color: #FFFFFF;
+    animation: example 1s infinite alternate;
 }
+@keyframes example{
+    from{
+        color:white;
+    }
+    to{
+        color:aqua;
+        font-family:cursive;
+        position: relative;
+        bottom:10px;
+    }
+}
+
 .players-heading p {
     font-weight: 400;
     font-size: 15px;
@@ -38,6 +51,18 @@ main{
     color: rgb(255, 255, 255);
     width: 458px;
     height: 78px;
+    animation: sliding 1s infinite alternate;
+}
+@keyframes sliding{
+    from{
+        color:white;
+    }
+    to{
+        color:orangered;
+        font-family:cursive;
+        position: relative;
+        bottom:10px;
+    }
 }
 .link{
     margin-top: 60px;
@@ -212,7 +237,7 @@ hr{
     padding-left: 10px;
 }
 /* ------------------
-this is tablet divice
+this is code for tablet divice
 ------------------- */
  @media screen and (min-width:768px) and (max-width:992px) {
   main{
