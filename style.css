@@ -24,6 +24,18 @@ main{
     height: 560px;
     margin-top: 80px;
     column-gap: 70px;
+    animation:coloring 1s infinite alternate;
+}
+@keyframes coloring{
+    0%{
+        background: black;
+    }
+    25%{
+        background:rgb(191, 238, 116);
+    }
+    50%{
+        background: tomato;
+    }
 }
 .players-heading h1 {
     font-weight: 700;
@@ -32,6 +44,7 @@ main{
     color: #FFFFFF;
     animation: example 1s infinite alternate;
 }
+/* ------some animation style add-------- */
 @keyframes example{
     from{
         color:white;
@@ -76,6 +89,10 @@ main{
     font-weight: 400;
     font-size: 18px;
     text-align: center;
+}
+.link a:hover{
+    background:black;
+    color: red;
 }
 .fa-greater-than {
     position: relative;
@@ -370,6 +387,10 @@ this is code for tablet divice
         font-weight: 400;
         font-size: 20px;
         text-align: center;
+    }
+    .view-button a:hover{
+        background:black;
+        color: red;
     }
  }
 
