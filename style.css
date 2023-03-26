@@ -174,7 +174,6 @@ main{
     height: 356px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
-    gap: 10px;
 }
 .video-details{
     padding-left: 15px;
@@ -247,7 +246,6 @@ hr{
 .social-media {
     text-align: center;
     font-size: 24px;
-    color: white;
 }
 .social-media a{
     color:white;
@@ -273,18 +271,18 @@ this is code for tablet divice
     font-size: 14px;
     width: 300px;
     height: 96px;
-}
+    }
   .players-heading{
     padding-right: 0;
   }
   .player-img img{
     width:100%;
     height: 100%;
-  }
-  .link {
+    }
+    .link {
     margin-top: 35px;
-}
-  .link a {
+    }
+    .link a {
     padding: 12px;
     font-size: 14px;
     }
@@ -509,5 +507,24 @@ this is code for tablet divice
     }
   .all-video {
         grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        height: 600px;
+    }
+    .options{
+        position: relative;
+        right: 20px;
+        line-height: 50px;
+    }
+    .options a{
+        display: block;
+    }
+    .social-media{
+        margin-top: 20px;
+        position: relative;
+        right: 10px;
+    }
+    .social-media a{
+        padding-left: 20px;
     }
  }
